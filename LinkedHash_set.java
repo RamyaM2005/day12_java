@@ -8,11 +8,11 @@ public class LinkedHash_set {
     a.add("Students");
     a.add("Ram");
     a.add("Student");
-    System.out.println(a);
-    a.remove("Ram");
-    System.out.println(a);
-    a.clear();
-    System.out.println(a);
+    //Iterator
+    for(String s:a)
+    {
+        System.out.println(s+" ");
+    }
     }
     
 }
